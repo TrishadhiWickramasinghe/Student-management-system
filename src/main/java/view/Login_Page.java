@@ -54,7 +54,7 @@ public class Login_Page extends javax.swing.JFrame {
             .addGap(0, 0, Short.MAX_VALUE)
         );
 
-        jPanel2.setBackground(new java.awt.Color(102, 51, 255));
+        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
         jPanel2.setPreferredSize(new java.awt.Dimension(600, 600));
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));

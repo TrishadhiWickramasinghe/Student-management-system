@@ -60,7 +60,7 @@ public class Dashboard extends javax.swing.JFrame {
             .addGap(0, 788, Short.MAX_VALUE)
         );
 
-        jPanel3.setBackground(new java.awt.Color(102, 0, 255));
+        jPanel3.setBackground(new java.awt.Color(153, 153, 153));
 
         jPanel2.setBackground(new java.awt.Color(0, 0, 0));
         jPanel2.setPreferredSize(new java.awt.Dimension(100, 55));
@@ -76,7 +76,7 @@ public class Dashboard extends javax.swing.JFrame {
             .addGap(0, 55, Short.MAX_VALUE)
         );
 
-        btnReport.setBackground(new java.awt.Color(102, 0, 255));
+        btnReport.setBackground(new java.awt.Color(153, 153, 153));
         btnReport.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnReport.setText("Report");
         btnReport.setBorder(null);
@@ -86,7 +86,7 @@ public class Dashboard extends javax.swing.JFrame {
             }
         });
 
-        btnCheckResult.setBackground(new java.awt.Color(102, 0, 255));
+        btnCheckResult.setBackground(new java.awt.Color(153, 153, 153));
         btnCheckResult.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnCheckResult.setText("Check Result");
         btnCheckResult.setBorder(null);
@@ -96,7 +96,7 @@ public class Dashboard extends javax.swing.JFrame {
             }
         });
 
-        btnAddCourse.setBackground(new java.awt.Color(102, 0, 255));
+        btnAddCourse.setBackground(new java.awt.Color(153, 153, 153));
         btnAddCourse.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnAddCourse.setText("Add Course");
         btnAddCourse.setBorder(null);
@@ -106,7 +106,7 @@ public class Dashboard extends javax.swing.JFrame {
             }
         });
 
-        btnAddMark.setBackground(new java.awt.Color(102, 0, 255));
+        btnAddMark.setBackground(new java.awt.Color(153, 153, 153));
         btnAddMark.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnAddMark.setText("Add Mark");
         btnAddMark.setBorder(null);
@@ -116,7 +116,7 @@ public class Dashboard extends javax.swing.JFrame {
             }
         });
 
-        btnStudent.setBackground(new java.awt.Color(102, 0, 255));
+        btnStudent.setBackground(new java.awt.Color(153, 153, 153));
         btnStudent.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnStudent.setText("Student");
         btnStudent.setBorder(null);
@@ -126,7 +126,7 @@ public class Dashboard extends javax.swing.JFrame {
             }
         });
 
-        btnDeleteCourse.setBackground(new java.awt.Color(102, 0, 255));
+        btnDeleteCourse.setBackground(new java.awt.Color(153, 153, 153));
         btnDeleteCourse.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnDeleteCourse.setText("Delete Course");
         btnDeleteCourse.setBorder(null);
@@ -191,9 +191,7 @@ public class Dashboard extends javax.swing.JFrame {
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel3Layout.createSequentialGroup()
                                 .addGap(0, 0, Short.MAX_VALUE)
                                 .addComponent(btnStudent, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -219,7 +217,6 @@ public class Dashboard extends javax.swing.JFrame {
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(38, 38, 38)
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel3Layout.createSequentialGroup()
@@ -271,7 +268,7 @@ public class Dashboard extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 788, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 195, Short.MAX_VALUE))
+                .addGap(0, 213, Short.MAX_VALUE))
         );
 
         pack();

@@ -64,7 +64,7 @@ public class Add_Course_Page extends javax.swing.JFrame {
             .addGap(0, 0, Short.MAX_VALUE)
         );
 
-        jPanel2.setBackground(new java.awt.Color(102, 51, 255));
+        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
         jPanel2.setPreferredSize(new java.awt.Dimension(628, 55));
 
         btnBack.setBackground(new java.awt.Color(102, 102, 102));
@@ -130,13 +130,13 @@ public class Add_Course_Page extends javax.swing.JFrame {
         tblCourse.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         tblCourse.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {null, null, null},
+                {null, null, null},
+                {null, null, null},
+                {null, null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "Subject ID", "Course", "Semester"
             }
         ));
         jScrollPane1.setViewportView(tblCourse);

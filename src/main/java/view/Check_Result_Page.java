@@ -48,7 +48,6 @@ public class Check_Result_Page extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 255, 255));
-        setPreferredSize(new java.awt.Dimension(552, 564));
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.setPreferredSize(new java.awt.Dimension(30, 650));
@@ -64,7 +63,7 @@ public class Check_Result_Page extends javax.swing.JFrame {
             .addGap(0, 650, Short.MAX_VALUE)
         );
 
-        jPanel2.setBackground(new java.awt.Color(102, 0, 255));
+        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
 
         btnBack.setBackground(new java.awt.Color(102, 102, 102));
         btnBack.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -122,13 +121,13 @@ public class Check_Result_Page extends javax.swing.JFrame {
         tblStudentMars.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         tblStudentMars.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+                {null, null, null},
+                {null, null, null},
+                {null, null, null},
+                {null, null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "Semester", "Subject ID", "Marks"
             }
         ));
         jScrollPane1.setViewportView(tblStudentMars);

@@ -80,7 +80,7 @@ public class Manage_Course_Page extends javax.swing.JFrame {
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jPanel3.setBackground(new java.awt.Color(102, 0, 255));
+        jPanel3.setBackground(new java.awt.Color(153, 153, 153));
 
         btnBack.setBackground(new java.awt.Color(102, 102, 102));
         btnBack.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
